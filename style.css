@@ -17,9 +17,8 @@ html * {
 }
 
 .nav{
-  height: 40px;
-  background: #4de1ff;
-  opacity: 0.75;
+  height: 250px;
+  background: #ff4433;
   border-bottom: 2px solid #4de1ff;
 }
 
@@ -39,14 +38,14 @@ html * {
   float: left;
   display: block;
   padding: 10px 20px;
-  color: black;
+  color: white;
   transition: all, 0.5s;
   
 
 }
 
 .nav ul li a:hover {
-  color: white;
+  color: black;
 }
 
 .headerBreak {
