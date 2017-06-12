@@ -52,13 +52,23 @@ html * {
   margin-top: 500px;
 }
 
-.imageOneClass {
+imageOneId {
   border-radius: 50%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
   
-.imageOneClass: hover {
+imageOneId: hover {
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+img:hover {
   -webkit-transform: rotate(60deg);
           transform: rotate(60deg);
 }
