@@ -18,7 +18,14 @@
     
 </head>
 <body>
-    
+    <script>
+        
+        function show(shown, hidden) {
+            document.getElementById(shown).style.display='block';
+            document.getElementById(hidden).style.display='none';
+            return false;
+        }
+    </script>
     <style>
 
 
@@ -51,11 +58,13 @@
     
 </style>    
    
-    
+    <div id="start">
     <center><font size="100" color="black">Learn to Cube!</font></center>
-    <center><button id="startButtonId" class="button startButton">Click to Begin</button></center>
-      
-
+    <center><button id="startButtonId" class="button startButton" onclick="show('howToUse', 'start')">Click to Begin</button></center>
+    </div>      
+    <div id="howToUse" style="display:none">
+        <center><h1>How to use this website!</h1></center>
+    </div>
     
     
 
