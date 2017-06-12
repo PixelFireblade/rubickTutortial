@@ -57,7 +57,7 @@ html * {
 }
 
 .button {
-  background-color: #ff6345; /* Red */
+   background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 16px 32px;
@@ -69,8 +69,6 @@ html * {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 200px;
-    height: 100px;
 }
 
 .startButton {
