@@ -51,3 +51,15 @@ html * {
 .headerBreak {
   margin-top: 500px;
 }
+
+.imageOneClass {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+  
+.imageOneClass: hover {
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
